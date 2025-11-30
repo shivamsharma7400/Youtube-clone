@@ -1,0 +1,65 @@
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: #f1f1f1;
+}
+
+
+.navbar {
+display: flex;
+align-items: center;
+background: #fff;
+padding: 10px 20px;
+box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+.logo {
+font-size: 22px;
+font-weight: bold;
+color: red;
+}
+
+
+.navbar input {
+padding: 8px;
+flex: 1;
+margin-left: 20px;
+}
+
+
+.navbar button {
+padding: 8px 15px;
+}
+
+
+.heading {
+margin: 20px;
+}
+
+
+.video-grid {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+gap: 20px;
+padding: 20px;
+}
+
+
+.video-card {
+background: #fff;
+border-radius: 8px;
+overflow: hidden;
+box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+cursor: pointer;
+}
+
+
+.video-card img {
+width: 100%;
+}
+
+
+.video-info {
+padding: 10px;
+}
